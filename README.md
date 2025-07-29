@@ -38,7 +38,8 @@ The **Vehicle Parking Application** is a web-based system designed to manage par
 ```bash
 git clone https://github.com/YOUR-USERNAME/vehicle_parking_app.git
 cd vehicle_parking_app
-##2. Create Virtual Environment
+###2. Create Virtual Environment
+```
 python -m venv .venv
 .venv\Scripts\activate  # On Windows
 # or
