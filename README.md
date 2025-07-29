@@ -40,25 +40,25 @@ git clone https://github.com/YOUR-USERNAME/vehicle_parking_app.git
 cd vehicle_parking_app
 ```
 
-###2. Create Virtual Environment
+2. Create Virtual Environment
 ```bash
 python -m venv .venv
 .venv\Scripts\activate  # On Windows
 # or
 source .venv/bin/activate  # On macOS/Linux
 ```
-###3. Install Dependencies
+3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-##4. Run the Application
+4. Run the Application
 ```bash
 python app.py
 ```
 ```bash
 Visit http://127.0.0.1:5000/ in your browser.
 ```
-###Project Structure
+Project Structure
 ```bash
 parking_app_23f2004770/
 │
@@ -89,9 +89,9 @@ parking_app_23f2004770/
 │   ├── user_summary.html               # User analytics summary
 │
 ├── models.py                    # Database models
-```
 ├── app.py                       # Main app entry point
 ├── config.py (if present)       # Configuration (if used)
 ├── requirements.txt             # Python dependencies
 ├── .gitignore                   # Files to ignore in Git
-├── README.md                    # You're reading it!
+├── README.md                    # You're reading it
+```
